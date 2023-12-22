@@ -1,0 +1,20 @@
+/* 滚动槽长度 */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 9px;
+}
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+    border-radius: 3px;
+}
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #dddee0;
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
+}
+/* 滚动槽触摸后 */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #c7c9cc;
+}
